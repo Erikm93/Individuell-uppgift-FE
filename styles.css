@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    border: 1px solid;
+    width: 100%;
+    background-color: red;
+    color: black;
+}
+
+.navbarlist a {
+    text-decoration:none;
+    color: yellow;
+
+}
+
+.logo {
+    margin-left: 3rem;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+.logo a {
+    text-decoration:none;
+    color: yellow;
+}
+
+.nav-container {
+    padding: 20px;
+    margin: 10px;
+}
+
+.navbarlist a:hover {
+    background: blue;
+}
+
+.sidebar-subjects a {
+    text-decoration:none;
+    color: white;
+}
+
+.sidebar-subjects a:hover {
+    background: red;
+}
+
+
+input {
+    margin-right: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+    
+}
+
+#sidebar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    margin-top: 7rem;
+    width: 19rem;
+    background-color: rgb(82, 79, 79);
+    flex-direction: column;
+}
+
+.sidebar-title {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 0.2rem solid black;
+}
+
+#sidebar li{
+    padding: 1rem 0 0.5rem 1rem;
+    list-style: none;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    margin-left: min(19.5rem);
+}
+
+.articles a {
+    text-decoration:none;
+    color: black;
+}
+
+.articles a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 30rem;
+}
+.articles {
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: lightblue;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 5.8rem;
+    border: 0.2rem solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 10.5rem;
+}
